@@ -11,14 +11,7 @@
 </template>
 
 <script lang="ts">
-import { ref, toRefs, toRef } from 'vue';
-
-interface Props {
-  msg: string;
-}
-
-// const props = defineProps<Props>();
-
+import { ref, toRefs, toRef } from "vue";
 export default {
   props: {
     msg: String,
